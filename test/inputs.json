@@ -1,0 +1,58 @@
+[
+    {
+        "id": "1",
+        "url": "/api/target/1",
+        "value": "11",
+        "maxAcceptsPerDay": "12",
+        "accept": {
+            "geoState": {
+                "$in": ["ca", "ny"]
+            },
+              "hour": {
+                "$in": ["14", "16" ]
+              }
+        }
+    },
+    {
+        "id": "2",
+        "url": "/api/target/2",
+        "value": "5",
+        "maxAcceptsPerDay": "8",
+        "accept": {
+            "geoState": {
+                "$in": ["ny"]
+            },
+              "hour": {
+                "$in": ["13", "14" ]
+              }
+        }
+    },
+    {
+        "id": "3",
+        "url": "/api/target/3",
+        "value": "10",
+        "maxAcceptsPerDay": "5",
+        "accept": {
+            "geoState": {
+                "$in": ["ca"]
+            },
+              "hour": {
+                "$in": ["13", "14", "16" ]
+              }
+        }
+    },
+    {
+        "id": "4",
+        "url": "/api/target/4",
+        "value": "11",
+        "maxAcceptsPerDay": "12",
+        "accept": {
+            "geoState": {
+                "$in": ["ca", "ny"]
+            },
+              "hour": {
+                "$in": ["13" ]
+              }
+        }
+    }
+]
